@@ -5,6 +5,7 @@ $estudios = unserialize(file_get_contents('archivos/estudios.txt'));
 $otros = unserialize(file_get_contents('archivos/otros.txt'));
 $habilidades = unserialize(file_get_contents('archivos/habilidades.txt'));
 $perfil = unserialize(file_get_contents('archivos/perfil.txt'));
+$idiomas = unserialize(file_get_contents('archivos/idiomas.txt'));
 arsort($habilidades);
 require 'modphp/casos.inc';
 ?>
@@ -34,7 +35,11 @@ require 'modphp/casos.inc';
         </article>
     </header>
     <main>
-        <p id="intro">Estudiante de informática interesado en la programación y el hardware, trabajador, responsable y con ganas de aprender.</p>
+        <!--<p id="intro">Estudiante de informática interesado en la programación
+            y el hardware, trabajador, responsable y con ganas de aprender.</p>-->
+        <p id="intro">Idealista, futurista, electricista, dentista, culturista, ebanista,
+            tarotista... Todo esto son palabras acabadas en ista, yo solo soy un diseñador
+            y programador fullstack interesado en la programación y el hardware.</p>
         <article id="experiencia">
             <h2>Experiencia laboral</h2>
             <?php generarListado($experiencia) ?>
@@ -42,6 +47,10 @@ require 'modphp/casos.inc';
         <article id="estudios">
             <h2>Estudios</h2>
             <?php generarListado($estudios) ?>
+        </article>
+        <article id="idiomas">
+            <h2>Idiomas</h2>
+            <?php idiomas($idiomas) ?>
         </article>
         <article id="otros">
             <h2>Otros</h2>

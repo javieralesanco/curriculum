@@ -1,1 +1,1 @@
-a:13:{s:4:"Java";i:4;s:4:"HTML";i:5;s:3:"CSS";i:5;s:3:"XML";i:4;s:18:"MySQL y SQL Server";i:5;s:4:"Word";i:4;s:5:"Excel";i:4;s:11:"Git-GitFlow";i:4;s:5:"JUnit";i:3;s:7:"Inglés";i:4;s:9:"Photoshop";i:4;s:3:"PHP";i:3;s:18:"JavaScript Vanilla";i:4;}
+a:12:{s:4:"Java";i:4;s:4:"HTML";i:5;s:3:"CSS";i:5;s:3:"XML";i:4;s:18:"MySQL y SQL Server";i:5;s:4:"Word";i:4;s:5:"Excel";i:4;s:11:"Git-GitFlow";i:4;s:5:"JUnit";i:3;s:9:"Photoshop";i:4;s:3:"PHP";i:3;s:18:"JavaScript Vanilla";i:4;}
