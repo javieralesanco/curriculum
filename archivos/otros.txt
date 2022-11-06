@@ -1,0 +1,1 @@
+a:2:{i:0;a:2:{s:5:"fecha";s:7:"2018-10";s:6:"nombre";s:24:"Permiso de conducción B";}i:1;a:2:{s:5:"fecha";s:15:"2022-porDefinir";s:6:"nombre";s:42:"Título de preveción de riesgos laborales";}}

@@ -1,0 +1,1 @@
+a:2:{i:0;a:5:{s:6:"inicio";s:7:"2018-06";s:3:"fin";s:7:"2020-07";s:6:"nombre";s:34:"Operario en la campaña del cereal";s:5:"donde";s:27:"Servicios Agrarios Riojanos";s:5:"lugar";s:15:"Alesanco/Azofra";}i:1;a:0:{}}

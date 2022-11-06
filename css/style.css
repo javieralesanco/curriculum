@@ -1,0 +1,162 @@
+body,
+header,
+main,
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: grid;
+    grid-template-columns: 33% 66%;
+    background: linear-gradient(90deg, #00416A 34%, #EBF7FF 37%);
+}
+
+p {
+    padding: 0.1em;
+    margin: 0.1em
+}
+
+h2 {
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    font-size: 1.6em;
+    padding-left: 0.2em;
+}
+
+header {
+    grid-column: 1;
+    color: #EBF7FF;
+    margin: 4%;
+}
+
+header h2 {
+    margin: 0.2em;
+    width: 92%;
+    background-color: #00000069;
+    /*Nice*/
+}
+
+main {
+    grid-column: 2;
+    margin: 4%;
+    margin-top: 6%;
+    color: #2A2A46;
+}
+
+main article section {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    padding: 0.5em;
+    margin-left: 1%;
+}
+
+main article section:nth-child(even) {
+    background-color: #DDF;
+}
+
+main article h2 {
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
+    border-top: 1px solid #999;
+    border-BOTTOM: 1px solid #999;
+}
+
+.fechas {
+    grid-column: 1;
+}
+
+.content {
+    grid-column: 2;
+}
+
+img {
+    display: block;
+    margin: auto;
+    margin-bottom: 1em;
+    border-radius: 25% 0%;
+    width: 60%;
+    box-shadow: 0.2em 0.4em #00000042;
+}
+
+#nombre {
+    font-size: 3em;
+    padding: 0.2em;
+    margin: 2%;
+}
+
+.habs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 0.3em;
+    margin-right: 5%;
+}
+
+.habs:nth-child(even) {
+    grid-column: 1;
+}
+
+.habs label {
+    padding: 0.1em;
+}
+
+.habs:nth-child(odd) {
+    grid-column: 2;
+}
+
+#perfil section {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0.3em;
+    margin-right: 5%;
+}
+
+input[type="range"] {
+    appearance: none;
+    width: 95%;
+    height: 7px;
+    background-color: #DDF;
+    background-repeat: no-repeat;
+}
+
+.rango1 {
+    background: linear-gradient(#ff4500, #ff4500);
+    background-size: 20%;
+}
+
+.rango2 {
+    background: linear-gradient(#ff4500, #ff4500);
+    background-size: 40%;
+}
+
+.rango3 {
+    background: linear-gradient(#ff4500, #ff4500);
+    background-size: 60%;
+}
+
+.rango4 {
+    background: linear-gradient(#ff4500, #ff4500);
+    background-size: 80%;
+}
+
+.rango5 {
+    background: linear-gradient(#ff4500, #ff4500);
+    background-size: 100%;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    appearance: none;
+}
+
+input[type=”range”]::-moz-range-thumb {
+    appearance: none;
+}
+
+input[type=”range”]::-ms-thumb {
+    appearance: none;
+}
