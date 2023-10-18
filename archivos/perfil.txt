@@ -1,1 +1,1 @@
-a:3:{s:9:"Teléfono";s:15:"+34 650 659 560";s:5:"Email";s:24:"javieralesanco@gmail.com";s:19:"Fecha de nacimiento";s:14:"03 / 08 / 2000";}
+a:4:{s:9:"Teléfono";s:46:"<a href="tel:+34650659560">+34 650 659 560</a>";s:5:"Email";s:70:"<a href="mailto:javieralesanco@gmail.com">javieralesanco@gmail.com</a>";s:19:"Fecha de nacimiento";s:14:"03 / 08 / 2000";s:6:"Github";s:62:"<a href="https://github.com/javieralesanco">javieralesanco</a>";}

@@ -35,11 +35,10 @@ require 'modphp/casos.inc';
         </article>
     </header>
     <main>
-        <!--<p id="intro">Estudiante de informática interesado en la programación
-            y el hardware, trabajador, responsable y con ganas de aprender.</p>-->
-        <p id="intro">Idealista, futurista, electricista, dentista, culturista, ebanista,
+        <p id="intro">Soy estudiante de informática con un fuerte interés en la programación y el hardware. Soy trabajador, responsable y siempre estoy dispuesto a aprender. Recientemente, he estado explorando el web scraping como parte de mi crecimiento profesional.</p>
+        <!-- <p id="intro">Idealista, futurista, electricista, dentista, culturista, ebanista,
             tarotista... Todo esto son palabras acabadas en ista, yo solo soy un diseñador
-            y programador fullstack interesado en la programación y el hardware.</p>
+            y programador fullstack interesado en la programación y el hardware.</p> -->
         <article id="experiencia">
             <h2>Experiencia laboral</h2>
             <?php generarListado($experiencia) ?>

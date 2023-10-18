@@ -6,7 +6,19 @@ $experiencia = [
         'nombre' => 'Operario en la campaña del cereal',
         'donde' => 'Servicios Agrarios Riojanos',
         'lugar' => 'Alesanco / Azofra'
-    ], []
+    ], [
+        'inicio' => '03 / 2023',
+        'fin' => '06 / 2023',
+        'nombre' => 'Practicas como desarrollador backend',
+        'donde' => 'Netbrain',
+        'lugar' => 'Logroño'
+    ], [
+        'inicio' => '10 / 2023',
+        'fin' => '10 / 2023',
+        'nombre' => 'Peon de bodega',
+        'donde' => 'Bodega Cooperativa Santiago Apostol',
+        'lugar' => 'Alesanco'
+    ]
 ];
 $estudios = [
     [
@@ -23,10 +35,16 @@ $estudios = [
         'lugar' => 'Logroño'
     ], [
         'inicio' => '09 / 2021',
-        'fin' => 'actualidad',
+        'fin' => '06 / 2023',
         'nombre' => 'Estudios superiores en <abbr title="Desarrollo de Aplicaciones Web">DAW</abbr>',
-        'donde' => 'Universidad de La Rioja',
+        'donde' => '<abbr title="Instituto de Educación Secundaria">IES</abbr> Comercio',
         'lugar' => 'Logroño'
+    ], [
+        'inicio' => '10 / 2023',
+        'fin' => 'actualidad',
+        'nombre' => 'Estudios superiores en <abbr title="Desarrollo de Aplicaciones Multiplataforma">DAM</abbr>',
+        'donde' => 'FPD Rioja',
+        'lugar' => 'Onine'
     ]
 ];
 $otros = [
@@ -34,16 +52,17 @@ $otros = [
         'fecha' => '10 / 2018',
         'nombre' => 'Permiso de conducción B'
     ], [
-        'fecha' => 'mes / 2022',
+        'fecha' => '11 / 2022',
         'nombre' => 'Título de preveción de riesgos laborales'
     ], [
         'nombre' => 'Movilidad nacional'
     ]
 ];
 $perfil = [
-    'Teléfono' => '+34 650 659 560',
-    'Email' => 'javieralesanco@gmail.com',
-    'Fecha de nacimiento' => '03 / 08 / 2000'
+    'Teléfono' => '<a href="tel:+34650659560">+34 650 659 560</a>',
+    'Email' => '<a href="mailto:javieralesanco@gmail.com">javieralesanco@gmail.com</a>',
+    'Fecha de nacimiento' => '03 / 08 / 2000',
+    'Github' => '<a href="https://github.com/javieralesanco">javieralesanco</a>'
 ];
 $habilidades = [
     'Java' => 4,
@@ -56,8 +75,9 @@ $habilidades = [
     'Git-GitFlow' => 4,
     'JUnit' => 3,
     'Photoshop' => 4,
-    'PHP' => 3,
-    'JavaScript Vanilla' => 4
+    'PHP' => 5,
+    'JavaScript Vanilla' => 5,
+    'Laravel' => 4
 ];
 $idiomas = [
     'Español' => 'Lengua materna',
