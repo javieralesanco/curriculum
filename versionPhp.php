@@ -56,10 +56,10 @@ require 'modphp/casos.inc';
             <h2>Otros</h2>
             <?php generarListado($otros) ?>
         </article>
-        <!--TEMPORAL-->
+        <!-- TEMPORAL
         <form action="archivos/generador.php">
             <input type="submit" value="Refresh">
-        </form>
+        </form> -->
     </main>
 </body>
 

@@ -178,15 +178,15 @@ a {
 }
 
 /* Movil */
-@media all and (max-width:720px) {
-    /* Con el fin de hacer el css mas responsive se corrige desde js los tamaños */
+@media screen and (max-width:720px) {
+    /* Con el fin de hacer el css mas responsive se corrige desde js las alturas */
     /* body {
         background: linear-gradient(180deg, #00416A 34%, #EBF7FF 37%);
     } */
 }
 
 /* Tablet */
-@media all and (min-width:721px) and (max-width:1200px) {
+@media screen and (min-width:721px) and (max-width:1200px) {
     #perfil section {
         display: block;
     }
@@ -218,6 +218,13 @@ a {
 }
 
 @media print {
+    #perfil section {
+        display: block;
+    }
+
+    #perfil section p {
+        font-size: 0.9em;
+    }
 
     abbr,
     a {
@@ -232,5 +239,8 @@ a {
     body {
         margin-left: 5%;
         margin-right: 5%;
+        display: grid;
+        grid-template-columns: 33% 66%;
+        background: linear-gradient(90deg, #00416A 34%, #EBF7FF 37%);
     }
 }
