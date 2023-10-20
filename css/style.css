@@ -9,15 +9,6 @@ p {
     padding: 0;
 }
 
-body {
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: -1em;
-    display: grid;
-    grid-template-columns: 33% 66%;
-    background: linear-gradient(90deg, #00416A 34%, #EBF7FF 37%);
-}
-
 p {
     padding: 0.1em;
     margin: 0.1em
@@ -186,7 +177,16 @@ a {
     color: #EBF7FF;
 }
 
-@media all and (max-width:1200px) {
+/* Movil */
+@media all and (max-width:720px) {
+    /* Con el fin de hacer el css mas responsive se corrige desde js los tamaños */
+    /* body {
+        background: linear-gradient(180deg, #00416A 34%, #EBF7FF 37%);
+    } */
+}
+
+/* Tablet */
+@media all and (min-width:721px) and (max-width:1200px) {
     #perfil section {
         display: block;
     }
@@ -195,9 +195,38 @@ a {
         font-size: 0.9em;
     }
 
+    body {
+        margin-left: 9%;
+        margin-right: 9%;
+        margin-top: -1em;
+        display: grid;
+        grid-template-columns: 33% 66%;
+        background: linear-gradient(90deg, #00416A 34%, #EBF7FF 37%);
+    }
+}
+
+/* PC */
+@media screen and (min-width:1201px) {
+    body {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: -1em;
+        display: grid;
+        grid-template-columns: 33% 66%;
+        background: linear-gradient(90deg, #00416A 34%, #EBF7FF 37%);
+    }
+}
+
+@media print {
+
     abbr,
     a {
         text-decoration: none;
+    }
+
+    h2 {
+        padding-top: 0.05em;
+        padding-bottom: 0.05em;
     }
 
     body {
