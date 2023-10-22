@@ -44,7 +44,7 @@ $estudios = [
         'fin' => 'actualidad',
         'nombre' => 'Estudios superiores en <abbr title="Desarrollo de Aplicaciones Multiplataforma">DAM</abbr>',
         'donde' => 'FPD Rioja',
-        'lugar' => 'Onine'
+        'lugar' => 'Online'
     ]
 ];
 $otros = [
